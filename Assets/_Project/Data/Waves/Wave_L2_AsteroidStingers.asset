@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753c7ed32d2fedf41ba899798802201c, type: 3}
+  m_Name: Wave_L2_AsteroidStingers
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.WaveDataSO
+  label: Asteroid Field
+  waveType: 1
+  enemy: {fileID: 11400000, guid: 497e0a7d046d5de49a23da6d4402294d, type: 2}
+  formation: 0
+  rows: 3
+  columns: 8
+  spacing: {x: 1.15, y: 0.95}
+  formationCenterViewport: {x: 0.5, y: 0.7}
+  swayAmplitude: 1.2
+  swaySpeed: 0.5
+  bobAmplitude: 0.15
+  flockSpecials: []
+  rogues:
+  - enemy: {fileID: 11400000, guid: a7e76db749ec9494baa63ca3dd903e84, type: 2}
+    count: 4
+    startDelay: 3
+    interval: 4
+  - enemy: {fileID: 11400000, guid: 8090649e0471a4343991a6b8f5ff1c64, type: 2}
+    count: 1
+    startDelay: 8
+    interval: 0
+  entryPath: {fileID: 0}
+  mirrorAlternate: 1
+  entrySpeed: 7
+  entryStagger: 0.12
+  diveInterval: {x: 3, y: 6}
+  maxSimultaneousDivers: 1
+  asteroidPrefab: {fileID: 945362633837715542, guid: dffb0d313b9c4e444bb78de627d3ccd3, type: 3}
+  asteroidSprites:
+  - {fileID: 21300000, guid: f20067a5768f9164abcdf500cf052290, type: 3}
+  - {fileID: 21300000, guid: 3808b8b8518b3b24d9d15846c283c4aa, type: 3}
+  - {fileID: 21300000, guid: a16e23796c484df4fbbe48b297f155c8, type: 3}
+  - {fileID: 21300000, guid: f24505e1a7baf634b9ce19b1f65d68b2, type: 3}
+  asteroidCount: 24
+  asteroidHealth: 4
+  asteroidSpawnInterval: {x: 0.3, y: 0.7}
+  asteroidSpeed: {x: 2.5, y: 4.5}
+  asteroidScale: {x: 0.8, y: 1.4}
+  asteroidFoodDropChance: 0.25
+  bossPrefab: {fileID: 0}
+  bossProfile: {fileID: 0}

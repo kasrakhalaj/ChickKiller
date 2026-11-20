@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be274f01bd133a4a9d546888fce2c14, type: 3}
+  m_Name: Level3_GalaxyDepths
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.LevelDataSO
+  levelNumber: 3
+  displayName: Galaxy Depths
+  sceneName: Level3
+  music: {fileID: 8300000, guid: ecfde330766a243409ea7952db2476d8, type: 3}
+  theme:
+    backgroundColor: {r: 0.05, g: 0, b: 0.08, a: 1}
+    layers:
+    - sprite: {fileID: 21300000, guid: 73a78a4c055c50245bcd3ed09d1af9b9, type: 3}
+      scrollSpeed: 0.1
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    - sprite: {fileID: 21300000, guid: a4f31907757e7794c86c8f36575a6382, type: 3}
+      scrollSpeed: 0.36
+      tint: {r: 1, g: 1, b: 1, a: 0.85}
+    - sprite: {fileID: 21300000, guid: 2266969199ed246448784fe4bb07bb29, type: 3}
+      scrollSpeed: 0.95
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    props:
+    - sprite: {fileID: 21300000, guid: f9398abf76d5cab4baddee2b8109326b, type: 3}
+      viewportX: 0.06
+      startViewportY: 0.5
+      worldWidth: 5
+      scrollSpeed: 0.18
+      rotationSpeed: -1.5
+      tint: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+      respawnDelay: 35
+    propsInsertIndex: 3
+  rounds:
+  - wave: {fileID: 11400000, guid: 76cf0284eab5ac84d90b9b297070ec0c, type: 2}
+    healthMultiplier: 1.2
+    speedMultiplier: 1.1
+    fireRateMultiplier: 1.2
+    diveFrequencyMultiplier: 1.2
+  - wave: {fileID: 11400000, guid: 7564a8b54dd89e64e9d854e9f403aa0c, type: 2}
+    healthMultiplier: 1.25
+    speedMultiplier: 1.15
+    fireRateMultiplier: 1.25
+    diveFrequencyMultiplier: 1.3
+  - wave: {fileID: 11400000, guid: 8985e843f0dfda3468b868bd801f9747, type: 2}
+    healthMultiplier: 1.3
+    speedMultiplier: 1.15
+    fireRateMultiplier: 1.3
+    diveFrequencyMultiplier: 1.35
+  - wave: {fileID: 11400000, guid: 0137b92493225f643a4adf0ff7d847d1, type: 2}
+    healthMultiplier: 1.35
+    speedMultiplier: 1.2
+    fireRateMultiplier: 1.4
+    diveFrequencyMultiplier: 1
+  - wave: {fileID: 11400000, guid: 1e2df17c6ffbcbd48921560f798046c1, type: 2}
+    healthMultiplier: 1.4
+    speedMultiplier: 1.2
+    fireRateMultiplier: 1.45
+    diveFrequencyMultiplier: 1.45
+  - wave: {fileID: 11400000, guid: 7564a8b54dd89e64e9d854e9f403aa0c, type: 2}
+    healthMultiplier: 1.5
+    speedMultiplier: 1.25
+    fireRateMultiplier: 1.5
+    diveFrequencyMultiplier: 1.55
+  - wave: {fileID: 11400000, guid: 0137b92493225f643a4adf0ff7d847d1, type: 2}
+    healthMultiplier: 1.55
+    speedMultiplier: 1.3
+    fireRateMultiplier: 1.6
+    diveFrequencyMultiplier: 1
+  - wave: {fileID: 11400000, guid: 8985e843f0dfda3468b868bd801f9747, type: 2}
+    healthMultiplier: 1.6
+    speedMultiplier: 1.3
+    fireRateMultiplier: 1.6
+    diveFrequencyMultiplier: 1.65
+  - wave: {fileID: 11400000, guid: 5deac40b3b8f1f84980a598ecdb389ae, type: 2}
+    healthMultiplier: 1.75
+    speedMultiplier: 1.35
+    fireRateMultiplier: 1.75
+    diveFrequencyMultiplier: 1.8
+  - wave: {fileID: 11400000, guid: e8fd07a858a109f4da3d8b6b349f284e, type: 2}
+    healthMultiplier: 1
+    speedMultiplier: 1
+    fireRateMultiplier: 1
+    diveFrequencyMultiplier: 1

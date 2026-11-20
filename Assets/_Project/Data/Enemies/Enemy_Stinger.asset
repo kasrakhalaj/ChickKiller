@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37314e2cb01a2f46a7329a314b069d4, type: 3}
+  m_Name: Enemy_Stinger
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.EnemyDataSO
+  displayName: Stinger
+  prefab: {fileID: 8748942526870722735, guid: a8ad3548a2e259a409fd40ff5aa7e718, type: 3}
+  flyFrames:
+  - {fileID: 21300000, guid: 92a58d560b196ef42b5248040b26d7e2, type: 3}
+  - {fileID: 21300000, guid: b2f7742aec39ba446be5faa6a3065ae7, type: 3}
+  frameRate: 7
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  scale: 1.3
+  maxHealth: 6
+  moveSpeed: 6
+  scoreValue: 350
+  attack:
+    projectile: {fileID: 4517780844292325430, guid: a6949ce13368dd844a74a59580859707, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    count: 1
+    spread: 0
+    aimAtPlayer: 1
+    speed: 9
+    interval: {x: 1, y: 1}
+  canDive: 0
+  diveSpeed: 0
+  diveTurnRate: 90
+  foodPrefab: {fileID: 5822885435626706932, guid: c0f7be318fa4060439b7fea2cd2a1961, type: 3}
+  foodDropChance: 0.6
+  giftPrefab: {fileID: 7649893981400066939, guid: 4fcb9135a03b0d24ca5a2cd0a55f65a1, type: 3}
+  giftDropChance: 0.2
+  specialDropChance: 0.25
+  deathVfx: {fileID: 4408456881665278835, guid: 6b459d53e964c0148b8db427783304d3, type: 3}
+  hitVfx: {fileID: 3094220329634587578, guid: 721a64782c4301d43a91eb1bacf665b4, type: 3}

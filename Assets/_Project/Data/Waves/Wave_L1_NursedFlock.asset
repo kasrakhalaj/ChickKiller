@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753c7ed32d2fedf41ba899798802201c, type: 3}
+  m_Name: Wave_L1_NursedFlock
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.WaveDataSO
+  label: Nursed Flock
+  waveType: 0
+  enemy: {fileID: 11400000, guid: 5e6b64d6ebe5d0b49a39d42de7f2d575, type: 2}
+  formation: 0
+  rows: 4
+  columns: 9
+  spacing: {x: 1.05, y: 0.85}
+  formationCenterViewport: {x: 0.5, y: 0.7}
+  swayAmplitude: 1
+  swaySpeed: 0.35
+  bobAmplitude: 0.15
+  flockSpecials:
+  - enemy: {fileID: 11400000, guid: 5b67ef8b0293b5445b1b2be720be8fe5, type: 2}
+    count: 3
+  rogues:
+  - enemy: {fileID: 11400000, guid: d5d3cdf2ab40983438d9986194f91b0f, type: 2}
+    count: 1
+    startDelay: 6
+    interval: 0
+  entryPath: {fileID: 11400000, guid: c162c116f5064cf48a635cc60bf962bf, type: 2}
+  mirrorAlternate: 1
+  entrySpeed: 7.5
+  entryStagger: 0.06
+  diveInterval: {x: 2.6, y: 5}
+  maxSimultaneousDivers: 2
+  asteroidPrefab: {fileID: 0}
+  asteroidSprites: []
+  asteroidCount: 20
+  asteroidHealth: 3
+  asteroidSpawnInterval: {x: 0.35, y: 0.8}
+  asteroidSpeed: {x: 2, y: 4}
+  asteroidScale: {x: 0.8, y: 1.4}
+  asteroidFoodDropChance: 0.25
+  bossPrefab: {fileID: 0}
+  bossProfile: {fileID: 0}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753c7ed32d2fedf41ba899798802201c, type: 3}
+  m_Name: Wave_L1_Grid
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.WaveDataSO
+  label: Hen Squadron
+  waveType: 0
+  enemy: {fileID: 11400000, guid: 5e6b64d6ebe5d0b49a39d42de7f2d575, type: 2}
+  formation: 0
+  rows: 3
+  columns: 8
+  spacing: {x: 1.15, y: 0.9}
+  formationCenterViewport: {x: 0.5, y: 0.7}
+  swayAmplitude: 1.3
+  swaySpeed: 0.3
+  bobAmplitude: 0.15
+  flockSpecials: []
+  rogues: []
+  entryPath: {fileID: 11400000, guid: a359776512d16ea4ea52b2d791169dfe, type: 2}
+  mirrorAlternate: 1
+  entrySpeed: 7
+  entryStagger: 0.1
+  diveInterval: {x: 3, y: 6}
+  maxSimultaneousDivers: 2
+  asteroidPrefab: {fileID: 0}
+  asteroidSprites: []
+  asteroidCount: 20
+  asteroidHealth: 3
+  asteroidSpawnInterval: {x: 0.35, y: 0.8}
+  asteroidSpeed: {x: 2, y: 4}
+  asteroidScale: {x: 0.8, y: 1.4}
+  asteroidFoodDropChance: 0.25
+  bossPrefab: {fileID: 0}
+  bossProfile: {fileID: 0}

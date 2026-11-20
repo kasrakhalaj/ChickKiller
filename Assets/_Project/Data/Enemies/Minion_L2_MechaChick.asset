@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37314e2cb01a2f46a7329a314b069d4, type: 3}
+  m_Name: Minion_L2_MechaChick
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.EnemyDataSO
+  displayName: Chick
+  prefab: {fileID: 3833353580668410492, guid: 12770edaef23986409668e069abab541, type: 3}
+  flyFrames:
+  - {fileID: 21300000, guid: fcc1740c7b4cf4240bc3b95598407c29, type: 3}
+  - {fileID: 21300000, guid: ef80a109f0e5ed54db138f5b9bd77443, type: 3}
+  frameRate: 7
+  tint: {r: 0.75, g: 0.8, b: 0.95, a: 1}
+  scale: 0.75
+  maxHealth: 2
+  moveSpeed: 6
+  scoreValue: 60
+  attack:
+    projectile: {fileID: 0}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    count: 1
+    spread: 0
+    aimAtPlayer: 0
+    speed: 3.5
+    interval: {x: 4, y: 9}
+  canDive: 1
+  diveSpeed: 10.5
+  diveTurnRate: 90
+  foodPrefab: {fileID: 4366860860191822149, guid: 1a4b00701d3c7fe4b8e36065453a10bb, type: 3}
+  foodDropChance: 0.3
+  giftPrefab: {fileID: 7649893981400066939, guid: 4fcb9135a03b0d24ca5a2cd0a55f65a1, type: 3}
+  giftDropChance: 0
+  specialDropChance: 0
+  deathVfx: {fileID: 4408456881665278835, guid: 6b459d53e964c0148b8db427783304d3, type: 3}
+  hitVfx: {fileID: 3094220329634587578, guid: 721a64782c4301d43a91eb1bacf665b4, type: 3}

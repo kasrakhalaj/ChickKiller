@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc3da653a9a2e444b7af638453ad07f, type: 3}
+  m_Name: Weapon_IonBlaster
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.WeaponDataSO
+  weaponName: Ion Blaster
+  icon: {fileID: 21300000, guid: 7c02ef2d2e851e64597f74cd8bef94e8, type: 3}
+  projectilePrefab: {fileID: 7701240827073946365, guid: 06aeba4ec423bef46bd7883d9addb1f3, type: 3}
+  powerLevels:
+  - label: Single Laser
+    projectileSprite: {fileID: 21300000, guid: eceafd6ed8b65b94197a001e102f1891, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1
+    damage: 1
+    projectileSpeed: 16
+    fireRate: 7
+    shots:
+    - offset: {x: 0, y: 0.45}
+      angle: 0
+  - label: Twin Laser
+    projectileSprite: {fileID: 21300000, guid: ef98bb03a0e046942968264c21a8473f, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1
+    damage: 1
+    projectileSpeed: 17
+    fireRate: 7.5
+    shots:
+    - offset: {x: -0.2, y: 0.4}
+      angle: 0
+    - offset: {x: 0.2, y: 0.4}
+      angle: 0
+  - label: Spread Shot
+    projectileSprite: {fileID: 21300000, guid: 23a3f181b47c8174f95cd5eeb51f781f, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1
+    damage: 0.85
+    projectileSpeed: 18
+    fireRate: 8
+    shots:
+    - offset: {x: 0, y: 0.45}
+      angle: 0
+    - offset: {x: -0.15, y: 0.4}
+      angle: 14
+    - offset: {x: 0.15, y: 0.4}
+      angle: -14
+  - label: Quad Spread
+    projectileSprite: {fileID: 21300000, guid: b212aa432fb572548b78d2427f2c54a0, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1
+    damage: 0.85
+    projectileSpeed: 18
+    fireRate: 8.5
+    shots:
+    - offset: {x: -0.15, y: 0.45}
+      angle: 0
+    - offset: {x: 0.15, y: 0.45}
+      angle: 0
+    - offset: {x: -0.3, y: 0.4}
+      angle: 12
+    - offset: {x: 0.3, y: 0.4}
+      angle: -12
+  - label: Penta Wave
+    projectileSprite: {fileID: 21300000, guid: c8d261fceceaff042ab8329e98b49f13, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1
+    damage: 0.8
+    projectileSpeed: 19
+    fireRate: 9
+    shots:
+    - offset: {x: -0.25, y: 0.4}
+      angle: 0
+    - offset: {x: 0, y: 0.45}
+      angle: 0
+    - offset: {x: 0.25, y: 0.4}
+      angle: 0
+    - offset: {x: -0.3, y: 0.35}
+      angle: 16
+    - offset: {x: 0.3, y: 0.35}
+      angle: -16
+  - label: Hepta Fan
+    projectileSprite: {fileID: 21300000, guid: fb42fd0db295bf848aac2a8d8e5ade8c, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1
+    damage: 0.6
+    projectileSpeed: 19
+    fireRate: 9.5
+    shots:
+    - offset: {x: -0.25, y: 0.4}
+      angle: 0
+    - offset: {x: 0, y: 0.45}
+      angle: 0
+    - offset: {x: 0.25, y: 0.4}
+      angle: 0
+    - offset: {x: -0.3, y: 0.35}
+      angle: 10
+    - offset: {x: 0.3, y: 0.35}
+      angle: -10
+    - offset: {x: -0.35, y: 0.3}
+      angle: 22
+    - offset: {x: 0.35, y: 0.3}
+      angle: -22
+  - label: Plasma Fan
+    projectileSprite: {fileID: 21300000, guid: fa1f59b0bf579a24ea382a8d0161d22c, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1.1
+    damage: 0.6
+    projectileSpeed: 20
+    fireRate: 10.5
+    shots:
+    - offset: {x: -0.25, y: 0.4}
+      angle: 0
+    - offset: {x: 0, y: 0.45}
+      angle: 0
+    - offset: {x: 0.25, y: 0.4}
+      angle: 0
+    - offset: {x: -0.3, y: 0.35}
+      angle: 10
+    - offset: {x: 0.3, y: 0.35}
+      angle: -10
+    - offset: {x: -0.35, y: 0.3}
+      angle: 22
+    - offset: {x: 0.35, y: 0.3}
+      angle: -22
+  - label: Ion Storm
+    projectileSprite: {fileID: 21300000, guid: 689881d8b31386748bce5b71c26af5a5, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    scale: 1.15
+    damage: 0.62
+    projectileSpeed: 21
+    fireRate: 11
+    shots:
+    - offset: {x: -0.25, y: 0.4}
+      angle: 0
+    - offset: {x: 0, y: 0.45}
+      angle: 0
+    - offset: {x: 0.25, y: 0.4}
+      angle: 0
+    - offset: {x: -0.3, y: 0.35}
+      angle: 8
+    - offset: {x: 0.3, y: 0.35}
+      angle: -8
+    - offset: {x: -0.35, y: 0.3}
+      angle: 16
+    - offset: {x: 0.35, y: 0.3}
+      angle: -16
+    - offset: {x: -0.4, y: 0.25}
+      angle: 28
+    - offset: {x: 0.4, y: 0.25}
+      angle: -28

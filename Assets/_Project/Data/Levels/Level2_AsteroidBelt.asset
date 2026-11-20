@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be274f01bd133a4a9d546888fce2c14, type: 3}
+  m_Name: Level2_AsteroidBelt
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.LevelDataSO
+  levelNumber: 2
+  displayName: Asteroid Belt & Jupiter
+  sceneName: Level2
+  music: {fileID: 8300000, guid: 055b1b76b53034945aa35b8bfdc90a6b, type: 3}
+  theme:
+    backgroundColor: {r: 0.08, g: 0.04, b: 0.02, a: 1}
+    layers:
+    - sprite: {fileID: 21300000, guid: 907b512b8e1c04041858d7161a0df49e, type: 3}
+      scrollSpeed: 0.1
+      tint: {r: 1, g: 0.62, b: 0.4, a: 1}
+    - sprite: {fileID: 21300000, guid: a4f31907757e7794c86c8f36575a6382, type: 3}
+      scrollSpeed: 0.32
+      tint: {r: 1, g: 1, b: 1, a: 0.85}
+    - sprite: {fileID: 21300000, guid: 2266969199ed246448784fe4bb07bb29, type: 3}
+      scrollSpeed: 0.85
+      tint: {r: 1, g: 1, b: 1, a: 1}
+    props:
+    - sprite: {fileID: 21300000, guid: b30f4aa205277f24fb7aa50114bf5bff, type: 3}
+      viewportX: 1
+      startViewportY: 0.4
+      worldWidth: 11
+      scrollSpeed: 0.11
+      rotationSpeed: 0.5
+      tint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      respawnDelay: 30
+    - sprite: {fileID: 21300000, guid: b2305f70fee6f0b42bbda88a0acc2cb8, type: 3}
+      viewportX: 0.06
+      startViewportY: 0.86
+      worldWidth: 2.4
+      scrollSpeed: 0.26
+      rotationSpeed: 2
+      tint: {r: 0.6, g: 0.6, b: 0.6, a: 1}
+      respawnDelay: 40
+    propsInsertIndex: 3
+  rounds:
+  - wave: {fileID: 11400000, guid: 30d9d1f6e10c70f44bf6f6e85949554e, type: 2}
+    healthMultiplier: 1.1
+    speedMultiplier: 1.05
+    fireRateMultiplier: 1.1
+    diveFrequencyMultiplier: 1.1
+  - wave: {fileID: 11400000, guid: ff29637fb74cbd64a96f216d94828a38, type: 2}
+    healthMultiplier: 1.15
+    speedMultiplier: 1.1
+    fireRateMultiplier: 1.2
+    diveFrequencyMultiplier: 1.2
+  - wave: {fileID: 11400000, guid: 88a1d64df9723a1439ce813200d991ac, type: 2}
+    healthMultiplier: 1.2
+    speedMultiplier: 1.15
+    fireRateMultiplier: 1.25
+    diveFrequencyMultiplier: 1
+  - wave: {fileID: 11400000, guid: 9ffc37fc81226954c8753e3e063e4f1c, type: 2}
+    healthMultiplier: 1.3
+    speedMultiplier: 1.15
+    fireRateMultiplier: 1.3
+    diveFrequencyMultiplier: 1.35
+  - wave: {fileID: 11400000, guid: ebb2eefe7fd4dca4ea97b4d8fbc3daff, type: 2}
+    healthMultiplier: 1.4
+    speedMultiplier: 1.2
+    fireRateMultiplier: 1.4
+    diveFrequencyMultiplier: 1.5
+  - wave: {fileID: 11400000, guid: 7c9c98831efe86f40b0ccfb22745e750, type: 2}
+    healthMultiplier: 1.45
+    speedMultiplier: 1.25
+    fireRateMultiplier: 1.45
+    diveFrequencyMultiplier: 1
+  - wave: {fileID: 11400000, guid: 9807732d7db758a47b28885ac05bc1d0, type: 2}
+    healthMultiplier: 1
+    speedMultiplier: 1
+    fireRateMultiplier: 1
+    diveFrequencyMultiplier: 1

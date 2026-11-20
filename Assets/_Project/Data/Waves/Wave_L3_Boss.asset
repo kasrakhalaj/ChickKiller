@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753c7ed32d2fedf41ba899798802201c, type: 3}
+  m_Name: Wave_L3_Boss
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.WaveDataSO
+  label: Invincible, Fearless, Sensual, Mysterious, Enchanting, Vigorous, Diligent, Overwhelming, Gorgeous, Passionate, Terrifying, Beautiful, Powerful, Green Emperor Chick
+  waveType: 2
+  enemy: {fileID: 11400000, guid: 24099a00ab9439141a7f6d18db52a964, type: 2}
+  formation: 0
+  rows: 3
+  columns: 8
+  spacing: {x: 1.15, y: 0.95}
+  formationCenterViewport: {x: 0.5, y: 0.7}
+  swayAmplitude: 1.2
+  swaySpeed: 0.5
+  bobAmplitude: 0.15
+  flockSpecials: []
+  rogues: []
+  entryPath: {fileID: 0}
+  mirrorAlternate: 1
+  entrySpeed: 7
+  entryStagger: 0.12
+  diveInterval: {x: 3, y: 6}
+  maxSimultaneousDivers: 1
+  asteroidPrefab: {fileID: 0}
+  asteroidSprites: []
+  asteroidCount: 20
+  asteroidHealth: 3
+  asteroidSpawnInterval: {x: 0.35, y: 0.8}
+  asteroidSpeed: {x: 2, y: 4}
+  asteroidScale: {x: 0.8, y: 1.4}
+  asteroidFoodDropChance: 0.25
+  bossPrefab: {fileID: 7170525017913187414, guid: 447372ad0b88bb445ac595942ae6fd4f, type: 3}
+  bossProfile: {fileID: 11400000, guid: f4119e7fbedeffe4f86cc0d8a04f096d, type: 2}

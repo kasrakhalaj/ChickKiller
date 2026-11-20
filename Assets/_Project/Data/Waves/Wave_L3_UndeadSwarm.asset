@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753c7ed32d2fedf41ba899798802201c, type: 3}
+  m_Name: Wave_L3_UndeadSwarm
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.WaveDataSO
+  label: Undead Swarm
+  waveType: 0
+  enemy: {fileID: 11400000, guid: 5153f6a70ca5d634781a62ca95d6d65f, type: 2}
+  formation: 0
+  rows: 4
+  columns: 10
+  spacing: {x: 0.98, y: 0.8}
+  formationCenterViewport: {x: 0.5, y: 0.7}
+  swayAmplitude: 1.5
+  swaySpeed: 0.6
+  bobAmplitude: 0.15
+  flockSpecials:
+  - enemy: {fileID: 11400000, guid: 5b67ef8b0293b5445b1b2be720be8fe5, type: 2}
+    count: 4
+  rogues:
+  - enemy: {fileID: 11400000, guid: d5d3cdf2ab40983438d9986194f91b0f, type: 2}
+    count: 2
+    startDelay: 6
+    interval: 6
+  entryPath: {fileID: 11400000, guid: 77d4af3745d872f48a7f3c932b3bf13b, type: 2}
+  mirrorAlternate: 1
+  entrySpeed: 10
+  entryStagger: 0.05
+  diveInterval: {x: 1.2, y: 2.2}
+  maxSimultaneousDivers: 5
+  asteroidPrefab: {fileID: 0}
+  asteroidSprites: []
+  asteroidCount: 20
+  asteroidHealth: 3
+  asteroidSpawnInterval: {x: 0.35, y: 0.8}
+  asteroidSpeed: {x: 2, y: 4}
+  asteroidScale: {x: 0.8, y: 1.4}
+  asteroidFoodDropChance: 0.25
+  bossPrefab: {fileID: 0}
+  bossProfile: {fileID: 0}

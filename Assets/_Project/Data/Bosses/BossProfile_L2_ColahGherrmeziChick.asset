@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a569afc50f729b546b0dda4044496aa7, type: 3}
+  m_Name: BossProfile_L2_ColahGherrmeziChick
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.BossProfileSO
+  phases:
+  - label: COLAH GHERRMEZI CHICK
+    enterBelowHealth: 1
+    attacks: 050000000600000002000000i
+    speedMultiplier: 1
+    cooldownMultiplier: 1
+    densityMultiplier: 1
+    enraged: 0
+    minionsPerSummon: 0
+  - label: SYSTEMS OVERDRIVE
+    enterBelowHealth: 0.65
+    attacks: 05000000060000000100000004000000i
+    speedMultiplier: 1.15
+    cooldownMultiplier: 0.8
+    densityMultiplier: 1.3
+    enraged: 0
+    minionsPerSummon: 3
+  - label: ENRAGED!
+    enterBelowHealth: 0.3
+    attacks: 0500000001000000060000000400000008000000i
+    speedMultiplier: 1.4
+    cooldownMultiplier: 0.6
+    densityMultiplier: 1.6
+    enraged: 1
+    minionsPerSummon: 4
+  moveSpeed: 4.5
+  dashSpeed: 14
+  restTime: 0.45
+  egg: {fileID: 175549095153278997, guid: 0d79f32cfec1b5849a52fd8cbf0f4129, type: 3}
+  feather: {fileID: 4517780844292325430, guid: a6949ce13368dd844a74a59580859707, type: 3}
+  orb: {fileID: 8619692233543418060, guid: 6b38ee33784b02644bfbf6f7addfc2be, type: 3}
+  eggTint: {r: 0.8, g: 0.85, b: 0.95, a: 1}
+  featherTint: {r: 1, g: 0.55, b: 0.3, a: 1}
+  orbTint: {r: 1, g: 0.45, b: 0.3, a: 1}
+  projectileSpeed: 5.2
+  minion: {fileID: 11400000, guid: e390f74993550a8468f4acc55dbe5fab, type: 2}
+  enragedTint: {r: 1, g: 0.4, b: 0.35, a: 1}
+  laneWarningSprite: {fileID: 21300000, guid: 6f190689e46ce72478782629190d6e27, type: 3}
+  laneWarningMaterial: {fileID: 2100000, guid: 27c68556d30e3fd498ed4445892b0def, type: 2}
+  phaseShiftVfx: {fileID: 5444625183304636189, guid: 618b0672ed7495443a40166c7f7edf05, type: 3}
+  teleportVfx: {fileID: 7100247754525941595, guid: b92a171ea654cdc4d97a1420183a10c8, type: 3}

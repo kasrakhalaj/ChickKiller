@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5372e420b2bb43541bc98d8367b25f18, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.Data.GameConfigSO
+  levels:
+  - {fileID: 11400000, guid: ea1c96b2544f6f44da23de949138f7be, type: 2}
+  - {fileID: 11400000, guid: 4f863fd7c84d7f246a734e8e260d07d8, type: 2}
+  - {fileID: 11400000, guid: e289936a0a6d48f468129c4d46a3ebce, type: 2}
+  mainMenuScene: MainMenu
+  startingLives: 3
+  startingMissiles: 2
+  basePowerLevel: 1
+  maxPowerLevel: 8
+  powerActsAsShield: 1
+  respawnPowerLevel: 3
+  respawnDelay: 1.4
+  specialWeapons:
+  - {fileID: 11400000, guid: 1f3d19847aec2aa4aaf150b56601bf97, type: 2}
+  - {fileID: 11400000, guid: 4cc0bf96501507544996859de6114543, type: 2}
+  - {fileID: 11400000, guid: 757cdedc9c8a5964ea677f869d122fbb, type: 2}
+  - {fileID: 11400000, guid: bea86625bc5931f40b0eb2c8192bfc44, type: 2}
+  - {fileID: 11400000, guid: 0d519d30a7d05724fa15203a4d1ecac5, type: 2}
+  specialPickupPrefab: {fileID: 691461109291603858, guid: 06052e7955939cb449663f6fc29545ad, type: 3}
+  foodMeterMax: 100
+  levelCompleteDelay: 3
