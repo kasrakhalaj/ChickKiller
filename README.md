@@ -1,4 +1,4 @@
-# 🐔 Chick Killer
+# Chick Killer
 
 A top-down space shooter in the spirit of the classic chicken-invader arcade games, built with **Unity 6 (6000.6) + URP 2D**.
 Fly a starfighter through three hand-themed levels, shred flocks of space chickens with eight power levels of lasers,
